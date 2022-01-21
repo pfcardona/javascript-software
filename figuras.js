@@ -1,8 +1,13 @@
-// Código del cuadrado
+ // Código del cuadrado
 console.group("Cuadrados");
 // const ladoCuadrado = 5;
 // console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
 
+//funciones: tareas que va a llevar a cabo el navegador
+//             Conjunto de sentencias  que nosotros utilizamos para generar
+//             acciones con las variables, y regresar algo 
+
+//nuestra función permite recibir parámetros
 function perimetroCuadrado(lado) {
   return lado * 4;
 }
@@ -11,6 +16,7 @@ function perimetroCuadrado(lado) {
 function areaCuadrado(lado) {
   return lado * lado;
 }
+
 // console.log("El área del cuadrado es: " + areaCuadrado + "cmˆ2");
 console.groupEnd();
 
@@ -89,4 +95,4 @@ function calcularAreaCuadrado() {
 
   const area = areaCuadrado(value);
   alert(area);
-}
+} 
