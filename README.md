@@ -28,3 +28,12 @@
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML
 # curso-practico-javascript
+
+
+[■,■,■,■].map(■→●) ⇒ [●,●,●,●]
+[■,●,■,▲].filter(■→true) ⇒ [■,■]
+[■,●,■,▲].find(●→true) ⇒ ●
+[■,●,■,▲].findIndex(●→true) ⇒ 1
+[■,●,■,▲].fill(●) ⇒ [●,●,●,●]
+[■,●,■,▲].some(●→true) ⇒ true
+[■,●,■,▲].every(●→true) ⇒ false
